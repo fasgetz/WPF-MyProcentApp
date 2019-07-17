@@ -47,12 +47,12 @@
                 </DockPanel>
                 <Separator/>
                 <DockPanel>
-                    <Label HorizontalContentAlignment="Center" Width="225" Content="Заработано от капитала:"/>
-                    <Label Content="{Binding mymodel.Summarize, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label HorizontalContentAlignment="Center" Width="225" Content="Заработано:"/>
+                    <Label Content="{Binding EarnedSum, UpdateSourceTrigger=PropertyChanged}"/>
                 </DockPanel>
                 <DockPanel>
                     <Label HorizontalContentAlignment="Center" Width="225" Content="Всего в сумме:"/>
-                    <Label Content="{Binding mymodel.Summarize, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="{Binding AllCapital, UpdateSourceTrigger=PropertyChanged}"/>
                 </DockPanel>
             </StackPanel>
         </Grid>
