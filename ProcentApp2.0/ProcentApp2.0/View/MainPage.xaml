@@ -40,7 +40,7 @@
                 </DockPanel>
                 <DockPanel>
                     <Label Width="200" Content="Дата окончания"/>
-                    <DatePicker Text="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}" SelectedDate="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}" x:Name="datepick" FontSize="16" Margin="0,0,5,0"/>
+                    <DatePicker SelectedDate="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}" x:Name="datepick" FontSize="16" Margin="0,0,5,0"/>
                 </DockPanel>
                 <DockPanel>
                     <Label Width="200" Content="Реинвестировать"/>
